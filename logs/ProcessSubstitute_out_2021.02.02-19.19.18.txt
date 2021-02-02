@@ -1,0 +1,124 @@
+
+### ProcessSubstitute
+# process is running and waiting for following commands
+<string>      - print <string> on std_out
+err <string>  - print <string> on std_err
+
+thread <name> <sleep>  - creates a new thread with cpu load depending on the sleep time e.g. 0 means full cpu usage
+
+debug      - print OS environment variables and Java system properties on std_out
+debugOS    - print OS environment variables on std_out
+debugJava  - print Java system properties   on std_out
+
+stop     - print <stop> on std_out and exit application with return code 0
+errfail  - print <fail> on std_err on  exit application with return code 1
+
+waiting commands on std_in
+
+> # Java properties
+file.encoding=Cp1252
+file.separator=\
+java.class.path=D:\klibWorkspaces\substituteWS\io.klib.log.toolings\libs\ProcessSubstitute.jar
+java.class.version=59.0
+java.home=D:\Java JDKs\jdk-15.0.1
+java.io.tmpdir=C:\Users\Alex\AppData\Local\Temp\
+java.library.path=D:\Java JDKs\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Java JDKs/jdk-15.0.1/bin/server;D:/Java JDKs/jdk-15.0.1/bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;D:\Matlab\bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\mvn\apache-maven-3.6.3\bin;C:\terraform\;C:\kubectl\;C:\fab\;C:\istio\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mvn\apache-maven-3.6.3\bin;C:\Program Files\PowerShell\7-preview\preview;D:\Java JDKs\jdk-15.0.1\bin;D:\Java JDKs\scripts;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\SonarQube\bin;C:\Users\Alex\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Oracle\VirtualBox;C:\Users\Alexander Schindler\AppData\Local\GitHubDesktop\bin;C:\terraform\;;C:\ProgramData\chectl\chectl\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\Alex\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Alex\empty-develop\eclipse;;.
+java.runtime.name=OpenJDK Runtime Environment
+java.runtime.version=15.0.1+9-18
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=15
+java.vendor=Oracle Corporation
+java.vendor.url=https://java.oracle.com/
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.version=15.0.1
+java.version.date=2020-10-20
+java.vm.compressedOopsMode=Zero based
+java.vm.info=mixed mode, sharing
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=15
+java.vm.vendor=Oracle Corporation
+java.vm.version=15.0.1+9-18
+jdk.debug=release
+line.separator=
+
+os.arch=amd64
+os.name=Windows 10
+os.version=10.0
+path.separator=;
+sun.arch.data.model=64
+sun.boot.library.path=D:\Java JDKs\jdk-15.0.1\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=D:\klibWorkspaces\substituteWS\io.klib.log.toolings\libs\ProcessSubstitute.jar
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=
+user.country=DE
+user.dir=D:\klibWorkspaces\substituteWS\io.klib.log.toolings\logs
+user.home=C:\Users\Alex
+user.language=de
+user.name=Alex
+user.script=
+user.variant=
+> # OS environment
+=::=::\
+=D:=D:\klibWorkspaces\substituteWS\io.klib.log.toolings\logs
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Alex\AppData\Roaming
+ARTIFACTORY_HOME=D:\artifactory
+COMPUTERNAME=CANY-LAP
+ChocolateyInstall=C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate=132500029911936578
+ComSpec=C:\WINDOWS\system32\cmd.exe
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+DriverData=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+GRADLE_HOME=C:\ProgramData\chocolatey\lib\gradle\tools\gradle-6.7
+HOMEDRIVE=C:
+HOMEPATH=\Users\Alex
+INGRESS_HOME=192.168.1.169
+INGRESS_PORT=30436
+JAVA_HOME=D:\Java JDKs\jdk-15.0.1
+LOCALAPPDATA=C:\Users\Alex\AppData\Local
+LOGONSERVER=\\CANY-LAP
+M2=C:\mvn\apache-maven-3.6.3\bin
+M2_HOME=C:\mvn\apache-maven-3.6.3
+MAVEN_OPTS=-Xms1024m -Xmx2048m
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
+OneDrive=C:\Users\Alex\OneDrive
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+POWERSHELL_DISTRIBUTION_CHANNEL=MSI:Windows 10 Pro
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=9e0a
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+Path=D:/Java JDKs/jdk-15.0.1/bin/server;D:/Java JDKs/jdk-15.0.1/bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;D:\Matlab\bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\mvn\apache-maven-3.6.3\bin;C:\terraform\;C:\kubectl\;C:\fab\;C:\istio\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mvn\apache-maven-3.6.3\bin;C:\Program Files\PowerShell\7-preview\preview;D:\Java JDKs\jdk-15.0.1\bin;D:\Java JDKs\scripts;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\SonarQube\bin;C:\Users\Alex\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Oracle\VirtualBox;C:\Users\Alexander Schindler\AppData\Local\GitHubDesktop\bin;C:\terraform\;;C:\ProgramData\chectl\chectl\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\Alex\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Alex\empty-develop\eclipse;
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+SECURE_INGRESS_PORT=32694
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\Alex\AppData\Local\Temp
+TMP=C:\Users\Alex\AppData\Local\Temp
+USERDOMAIN=CANY-LAP
+USERDOMAIN_ROAMINGPROFILE=CANY-LAP
+USERNAME=Alex
+USERPROFILE=C:\Users\Alex
+windir=C:\WINDOWS
+> TestString
+> stop

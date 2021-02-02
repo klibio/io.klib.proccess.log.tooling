@@ -6,20 +6,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/klibWorkspaces/substituteWS/io.klib.log.toolings/libs/slf4j-api-1.7.30.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/klibWorkspaces/substituteWS/io.klib.log.toolings/libs/zt-exec-1.12.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/klibWorkspaces/substituteWS/io.klib.log.toolings/libs/slf4j-simple-1.7.30.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-simple-1.7.30.jar"/>
+	<classpathentry kind="lib" path="libs/zt-exec-1.12.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.8.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
